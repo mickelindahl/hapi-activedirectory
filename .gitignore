@@ -1,0 +1,12 @@
+# Dependency directory
+# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
+node_modules
+
+# Ignore Idea stuff
+.idea
+
+# No coverage reports
+coverage.html
+
+# Not environmental variables in repo
+.env

@@ -1,0 +1,41 @@
+{
+  "name": "hapi-activedirectory",
+  "version": "0.0.1",
+  "description": "Hapi plugin for ldap authentication ",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/lab -m 10000 -r lcov | ./node_modules/.bin/coveralls",
+    "test-cov-html": "./node_modules/.bin/lab -l -r html -o coverage.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mickelindahl/hapi_activedirectory.git"
+  },
+  "keywords": [
+    "ldap",
+    "authentication",
+    "activedirectory",
+    "active directory"
+  ],
+  "author": "Mikael Lindahl <mikael.lindahl.07@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mickelindahl/hapi_activedirectory/issues"
+  },
+  "homepage": "https://github.com/mickelindahl/hapi_activedirectory#readme",
+  "dependencies": {
+    "activedirectory": "^0.7.2",
+    "bluebird": "^3.4.6"
+  },
+  "devDependencies": {
+    "code": "^4.0.0",
+    "coveralls": "^2.11.14",
+    "debug": "^2.2.0",
+    "dotenv": "^2.0.0",
+    "handlebars": "^4.0.5",
+    "hapi": "^15.1.1",
+    "lab": "^11.1.0",
+    "mock-require": "^1.3.0",
+    "vision": "^4.1.0"
+  }
+}
